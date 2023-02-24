@@ -13,4 +13,4 @@ The implementation of the defangIPaddr method is quite simple: it uses the built
 
 For example, if the input address is "192.168.0.1", the method will return "192[.]168[.]0[.]1". The replace method simply searches the input string for all occurrences of "." and replaces each one with "[.]", resulting in the defanged IP address.
 
-Overall, this is a straightforward and efficient solution to the problem of defanging an IP address. It uses the built-in string method replace to perform the required transformation, which is a reliable and commonly-used way to manipulate strings in Python."""
+Overall, this solution is a straightforward and efficient solution to the problem of defanging an IP address. It uses the built-in string method replace to perform the required transformation, which is a reliable and commonly-used way to manipulate strings in Python."""
